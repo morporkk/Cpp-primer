@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+// c is not ref type, cos it can by temp variable in main)
 std::string::size_type find_char(const std::string &s, char c, std::string::size_type &occurs)
 {
 	auto ret = s.size();
