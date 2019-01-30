@@ -25,7 +25,7 @@ void print(const int arr[], size_t size)
 	}
 }
 
-void print(int(&ar)[2])   // must have size []
+void print(int(&ar)[2])   // must have size [], and (&) or it will be read as an array of references
 {
 	for (auto i : ar)
 		std::cout << i << std::endl;
